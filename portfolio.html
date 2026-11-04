@@ -1,53 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Application Portfolio | App Publishing Registry</title>
-    <script src="https://tailwindcss.com"></script>
-    <script src="https://unpkg.com"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Apps | Manayo Kurnia Jaya</title>
+<meta name="description" content="Mobile apps published by Manayo Kurnia Jaya.">
+<meta name="theme-color" content="#0e6b63">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230e6b63'/%3E%3Crect x='10' y='6' width='12' height='20' rx='3' fill='none' stroke='white' stroke-width='2'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-slate-50 text-slate-800 font-sans antialiased py-16 px-4">
-    <div class="max-w-4xl mx-auto">
-        
-        <!-- Header Navigation Link -->
-        <div class="mb-8">
-            <a href="index.html" class="inline-flex items-center space-x-1.5 text-xs font-semibold text-blue-600 hover:underline">
-                <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i>
-                <span>Return to Publisher Profile</span>
-            </a>
-        </div>
-
-        <!-- Page Introduction -->
-        <div class="bg-white border border-slate-200 rounded-2xl p-8 sm:p-12 shadow-sm mb-8">
-            <h1 class="text-3xl font-extrabold text-slate-900 tracking-tight mb-3">Application Portfolio</h1>
-            <p class="text-slate-500 text-sm max-w-2xl leading-relaxed">
-                Our organization manages the structural lifecycle, deployment protocols, and core version upgrades for native mobile frameworks across global application marketplaces.
-            </p>
-        </div>
-
-        <!-- Empty Portfolio State (Optimized for Google Review Compliance) -->
-        <div class="bg-white border border-slate-200 border-dashed rounded-2xl p-12 text-center shadow-sm">
-            <div class="w-14 h-14 rounded-full bg-slate-50 border border-slate-200 flex items-center justify-center text-slate-400 mx-auto mb-5 shadow-sm">
-                <i data-lucide="layout-grid" class="w-6 h-6"></i>
-            </div>
-            
-            <h2 class="text-xl font-bold text-slate-900 mb-2">List of Applications</h2>
-            
-            <p class="text-slate-500 text-sm max-w-md mx-auto mb-6 leading-relaxed">
-                Currently no apps yet. This page will be updated whenever a new app has been published.
-            </p>
-        </div>
-
-        <!-- Footer -->
-        <footer class="mt-12 text-center text-xs text-slate-400">
-            <p>© 2026 Corporation Development Registry. All rights reserved.</p>
-        </footer>
-
-    </div>
-
-    <script>
-        lucide.createIcons();
-    </script>
-</body>
-</html>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"><svg width="16" height="20" viewBox="0 0 16 20" fill="none" stroke="#fff" stroke-width="2"><rect x="1.5" y="1" width="13" height="18" rx="3"/><path d="M6 15.5h4" stroke-linecap="round"/></svg></span>Manayo Kurnia Jaya</a>
+  <nav class="nav" aria-label="Main"><a href="index.html">Home</a><a href="portfolio.html" aria-current="page">Apps</a></nav>
+</div></header>
+<main id="main">
+<div class="page-head"><div class="wrap">
+  <h1>Our apps</h1>
+  <p>Every app we publish will be listed here with a short description and a link to its store page.</p>
+</div></div>
+<section><div class="wrap">
+  <div class="empty">
+    <div class="phone-sm" aria-hidden="true"></div>
+    <h3>No apps published yet</h3>
+    <p>This page will be updated as soon as our first app is released. For questions in the meantime, get in touch.</p>
+    <a class="btn btn-primary" href="mailto:support@manayo.org">Email us</a>
+  </div>
+</div></section>
+</main>
+<footer class="site-footer"><div class="wrap">
+  <span>© 2026 Manayo Kurnia Jaya. All rights reserved.</span>
+  <nav aria-label="Legal"><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a><a href="mailto:support@manayo.org">support@manayo.org</a></nav>
+</div></footer>
+</body></html>

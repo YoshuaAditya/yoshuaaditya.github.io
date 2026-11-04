@@ -1,134 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manayo Kurnia Jaya | Mobile Application Development & Publishing</title>
-    <script src="https://tailwindcss.com"></script>
-    <script src="https://unpkg.com"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Manayo Kurnia Jaya | Mobile App Development & Publishing</title>
+<meta name="description" content="Manayo Kurnia Jaya builds and publishes mobile apps, with a focus on stability, privacy and clear communication with users.">
+<meta name="theme-color" content="#0e6b63">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230e6b63'/%3E%3Crect x='10' y='6' width='12' height='20' rx='3' fill='none' stroke='white' stroke-width='2'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-slate-50 text-slate-900 font-sans antialiased selection:bg-blue-600 selection:text-white">
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><div class="wrap">
+  <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"><svg width="16" height="20" viewBox="0 0 16 20" fill="none" stroke="#fff" stroke-width="2"><rect x="1.5" y="1" width="13" height="18" rx="3"/><path d="M6 15.5h4" stroke-linecap="round"/></svg></span>Manayo Kurnia Jaya</a>
+  <nav class="nav" aria-label="Main"><a href="index.html" aria-current="page">Home</a><a href="portfolio.html">Apps</a></nav>
+</div></header>
+<main id="main">
+<section class="hero"><div class="wrap">
+  <div>
+    <h1>We build and publish mobile apps.</h1>
+    <p>Manayo Kurnia Jaya handles the full journey of an app: design, development, release and ongoing updates on the major mobile platforms.</p>
+    <div class="btns"><a class="btn btn-primary" href="portfolio.html">View our apps</a><a class="btn btn-ghost" href="#contact">Contact us</a></div>
+  </div>
+  <div class="phone" aria-hidden="true"><div class="screen">
+    <div class="bar"></div>
+    <div class="tile"><span class="ico b"></span><span class="lines"><i></i><i></i></span></div>
+    <div class="tile"><span class="ico"></span><span class="lines"><i></i><i></i></span></div>
+    <div class="tile"><span class="ico"></span><span class="lines"><i></i><i></i></span></div>
+    <div class="cta"></div>
+  </div></div>
+</div></section>
 
-    <!-- Top Corporate Banner -->
-    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-            <div class="flex items-center space-x-3">
-                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center text-white shadow-md shadow-blue-200">
-                    <i data-lucide="smartphone" class="w-5 h-5"></i>
-                </div>
-                <div>
-                    <span class="text-xl font-bold tracking-tight text-slate-800">Manayo Kurnia Jaya </span>
-                </div>
-            </div>
-            <nav class="hidden md:flex items-center space-x-8">
-                <a href="portfolio.html" class="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Our Apps</a>
-            </nav>
-        </div>
-    </header>
+<section class="band" id="capabilities"><div class="wrap">
+  <h2>What we do</h2>
+  <p class="lede">Three areas we focus on to keep our apps reliable and easy to trust.</p>
+  <div class="grid3">
+    <div class="feature"><h3>App development</h3><p>Clean, well-structured code that makes good use of each device’s features and runs smoothly.</p></div>
+    <div class="feature"><h3>Publishing and updates</h3><p>We manage releases across app stores, including version tracking, staged rollouts and device compatibility.</p></div>
+    <div class="feature"><h3>Privacy and security</h3><p>We follow regional data protection rules and protect user data with encryption and secure connections.</p></div>
+  </div>
+</div></section>
 
-    <!-- App Publisher Hero Section -->
-    <section class="relative bg-white border-b border-slate-200 overflow-hidden">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-28 relative z-10 flex flex-col md:flex-row items-center gap-12">
-            <div class="w-full md:w-1/2 text-left">
-                <span class="inline-flex items-center space-x-2 px-3 py-1 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 mb-6 border border-blue-100">
-                    <span>Official Mobile Application Publisher</span>
-                </span>
-                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-none mb-6">
-                    Engineering and publishing <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">next-gen mobile apps.</span>
-                </h1>
-                <p class="text-lg text-slate-500 max-w-xl mb-8 leading-relaxed">
-                    We specialize in end-to-end application development, architectural design, and global digital publishing across major mobile operating ecosystems.
-                </p>
-                <div class="flex flex-wrap gap-4">
-                    <a href="portfolio.html" class="inline-flex items-center justify-center px-6 py-3 text-base font-semibold rounded-lg text-white bg-slate-900 hover:bg-slate-800 transition-all shadow-sm">
-                        View Ecosystem Portfolio
-                    </a>
-                </div>
-            </div>
-            <!-- Interactive UI Frame (Signals high-quality app design to Google reviewers) -->
-            <div class="w-full md:w-1/2 flex justify-center">
-                <div class="w-64 h-[450px] bg-slate-950 border-[6px] border-slate-800 rounded-[36px] p-4 shadow-2xl relative overflow-hidden flex flex-col justify-between">
-                    <div class="w-24 h-4 bg-slate-800 rounded-full mx-auto mb-4"></div>
-                    <div class="flex-1 bg-white/5 rounded-2xl p-3 flex flex-col justify-between">
-                        <div class="flex items-center justify-between">
-                            <span class="text-[10px] text-slate-400 font-mono">App Live Stream</span>
-                            <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
-                        </div>
-                        <div class="my-auto space-y-2">
-                            <div class="h-2 bg-slate-700 rounded w-3/4"></div>
-                            <div class="h-6 bg-blue-600 rounded-lg w-full flex items-center justify-center text-[10px] text-white font-bold">Active User Framework</div>
-                        </div>
-                        <div class="grid grid-cols-3 gap-1">
-                            <div class="h-8 bg-slate-800 rounded"></div>
-                            <div class="h-8 bg-slate-800 rounded"></div>
-                            <div class="h-8 bg-slate-800 rounded"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="absolute inset-0 bg-[linear-gradient(to_right,#80808005_1px,transparent_1px),linear-gradient(to_bottom,#80808005_1px,transparent_1px)] bg-[size:24px_24px] pointer-events-none"></div>
-    </section>
-
-    <!-- Capabilities / Services Area (Critical verification proof for App Publisher profiles) -->
-    <section id="services" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-        <div class="text-center max-w-3xl mx-auto mb-16">
-            <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Application Development Capabilities</h2>
-            <p class="mt-4 text-lg text-slate-500">Rigorous technical infrastructure designed for rapid deployment and user stability.</p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
-                <div class="w-12 h-12 rounded-lg bg-blue-50 flex items-center justify-center text-blue-600 mb-5">
-                    <i data-lucide="code-2" class="w-6 h-6"></i>
-                </div>
-                <h3 class="text-lg font-bold text-slate-900 mb-2">Native App Development</h3>
-                <p class="text-sm text-slate-500 leading-relaxed">Clean, performant application code bases designed to leverage hardware features across target mobile environments seamlessly.</p>
-            </div>
-
-            <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
-                <div class="w-12 h-12 rounded-lg bg-indigo-50 flex items-center justify-center text-indigo-600 mb-5">
-                    <i data-lucide="cloud-lightning" class="w-6 h-6"></i>
-                </div>
-                <h3 class="text-lg font-bold text-slate-900 mb-2">Scalable Publishing</h3>
-                <p class="text-sm text-slate-500 leading-relaxed">Systematic global software delivery networks, version lifecycle oversight, rollout schedules, and device configuration tracking.</p>
-            </div>
-
-            <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
-                <div class="w-12 h-12 rounded-lg bg-purple-50 flex items-center justify-center text-purple-600 mb-5">
-                    <i data-lucide="shield-alert" class="w-6 h-6"></i>
-                </div>
-                <h3 class="text-lg font-bold text-slate-900 mb-2">Data Integrity & Privacy</h3>
-                <p class="text-sm text-slate-500 leading-relaxed">Strict adherence to regional protection directives, user security constraints, encryption algorithms, and secure API transport logic.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Company Validation Section -->
-    <section id="contact" class="bg-slate-100 border-t border-b border-slate-200 py-20">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div>
-                    <h2 class="text-3xl font-bold text-slate-900 mb-4">Publisher Transparency Information</h2>
-                    <p class="text-slate-600 mb-6 leading-relaxed">
-                        We operate in complete transparency with app ecosystems. Our organizational profiles handle system updates, developer keys, and user relations under strict compliance validation parameters.
-                    </p>
-                </div>
-                <div class="bg-white border border-slate-200 rounded-xl p-8 shadow-sm space-y-4">
-                    <h3 class="text-xl font-bold text-slate-900">Contact Us</h3>
-                    <div class="space-y-3 text-sm text-slate-600">
-                        <div class="flex items-center space-x-3"><i data-lucide="mail" class="w-4 h-4 text-slate-400"></i><span>support@manayo.org</span></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="bg-white py-12 text-xs text-slate-400">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4 border-t border-slate-100 pt-8">
-            <p>© 2026 Manayo Kurnia Jaya. All rights reserved.</p>
-            <div class="flex space-x-6">
-                <a href="privacy.html" class="hover:text-slate-600 transition-colors underline">Privacy Policy</a>
-                <a href="terms.html" class="hover:text-slate-600 transition-colors underline">Terms of Service</a>
-            </div>
-        </div>
+<section id="contact"><div class="wrap split">
+  <div>
+    <h2>Open about who we are</h2>
+    <p class="lede" style="margin:0">We manage our developer accounts, app updates and user support ourselves, and we follow the policies of every platform we publish on. Our privacy policy and terms explain how our apps handle data and how they may be used.</p>
+  </div>
+  <div class="contact-card">
+    <h3>Contact us</h3>
+    <p style="margin:0 0 .6rem;color:var(--ink-2)">Questions, support requests or privacy enquiries:</p>
+    <a href="mailto:support@manayo.org">support@manayo.org</a>
+  </div>
+</div></section>
+</main>
+<footer class="site-footer"><div class="wrap">
+  <span>© 2026 Manayo Kurnia Jaya. All rights reserved.</span>
+  <nav aria-label="Legal"><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a><a href="mailto:support@manayo.org">support@manayo.org</a></nav>
+</div></footer>
+</body></html>
